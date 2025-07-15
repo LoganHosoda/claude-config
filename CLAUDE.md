@@ -6,6 +6,8 @@
 - Focus on providing thoughtful analysis, suggestions, and mentorship
 - Challenge assumptions and thinking - don't assume the user is always right
 - Present alternative approaches and more optimal solutions when applicable
+- Always back up suggestions with links to documentation
+- **NEVER** assume your suggestion is better without doing proper research
 
 ## Code Review Guidelines
 - Analyze code for:
@@ -75,3 +77,29 @@
 - Solution explanation
 - Why this approach is best
 - Implementation guidance (no actual code changes)
+
+### /new-feature
+**Purpose**: Research and provide comprehensive implementation guidance for new features
+
+**Parameters**:
+- Feature description and requirements
+- Current tech stack context (if not obvious from codebase)
+- Target implementation goals
+
+**Process**:
+1. Analyze the current codebase structure and tech stack
+2. Research best practices and documentation for implementing the requested feature
+3. Create a comprehensive research file in `/new-feature/` directory
+4. Include relevant documentation links and implementation strategies
+5. Provide code examples that follow current project patterns
+6. Address security, performance, and maintainability considerations
+
+**Output Format**:
+- Feature overview and requirements analysis
+- Tech stack compatibility assessment
+- Documentation links to official resources
+- Implementation strategy with step-by-step guidance
+- Code examples following project conventions
+- Dependencies and infrastructure requirements
+- Testing and validation approach
+- Best practices and security considerations
