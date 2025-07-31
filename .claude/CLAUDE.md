@@ -103,3 +103,32 @@
 - Dependencies and infrastructure requirements
 - Testing and validation approach
 - Best practices and security considerations
+
+### /new-design
+**Purpose**: Generate multiple unique design variations for website components using parallel sub-agents
+
+**Parameters**:
+- Design requirements and component type (e.g., "modern navbar with search functionality", "hero section for SaaS landing page", "responsive footer with social links")
+
+**Process**:
+1. Analyze existing project structure and design patterns
+2. Create `/designs/{component-type}/` directory if it doesn't exist
+3. Launch 3 parallel sub-agents to generate unique design variations
+4. Each agent creates a complete HTML file with embedded CSS
+5. Consider responsive design, accessibility, and modern web standards
+6. Generate dynamic file names with timestamps for organization
+
+**Output Format**:
+- Three distinct HTML files in `/designs/{component-type}/{timestamp}_variation_{1,2,3}.html`
+- Each file contains:
+  - Complete HTML structure
+  - Embedded CSS with modern styling approaches
+  - Responsive design considerations
+  - Accessibility features
+  - Comments explaining design decisions
+  - Documentation links for techniques used
+
+**Design Variations Focus**:
+- **Variation 1**: Modern/minimalist approach
+- **Variation 2**: Bold/creative approach  
+- **Variation 3**: Classic/professional approach
